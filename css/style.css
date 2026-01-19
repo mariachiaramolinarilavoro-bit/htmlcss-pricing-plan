@@ -3,3 +3,45 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+    font-family: sans-serif;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+/*Description site*/
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.title{
+
+    margin-top: 20px;	
+    
+    .description{
+        font-size: 11px;
+        color: rgba(0, 0, 0, 0.516);	
+    }
+}
+
+.button{
+    font-size: 12px;
+    margin: 1.5rem;
+    
+    .border-none{
+        border: none;
+        background-color: white;
+        font-size: 20px;
+    }
+
+    .on, .off{
+        font-size: 20px;
+    }
+}
+
+.on-off{
+    display: flex;
+}
