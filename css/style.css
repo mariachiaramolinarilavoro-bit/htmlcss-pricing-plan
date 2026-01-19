@@ -15,16 +15,22 @@ body {
 header {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 50px;
 }
 
 .title{
-
     margin-top: 20px;	
     
-    .description{
+    .description {
         font-size: 11px;
         color: rgba(0, 0, 0, 0.516);	
     }
+}
+
+/*Button on monthly and off yearly*/
+
+.button-on-off{
+    display: flex;
 }
 
 .button{
@@ -42,6 +48,66 @@ header {
     }
 }
 
-.on-off{
-    display: flex;
+/*/Header*/
+
+.card-basic{
+    padding: 2.2rem;
+    width: 30%;
+    background-color: #FEFEFE;
+    border-radius: 1rem;
+
+    .rgba{
+        font-size: 12px;
+        color: rgba(0, 0, 0, 0.516);	
+    }
+
+    .main-card{
+        text-align: center;
+        
+        .value{
+            padding: 10px;
+
+            .price{
+                font-size: 3rem;
+                font-weight: 700;
+            }
+        }
+        
+        .yearly{
+            font-size: 12px;
+        }
+        
+        .sale{
+            border: none;
+            background-color: #E3E3E3;
+            border-radius: 7px;
+            padding: 5px;
+        }
+
+        .choose-plan{
+            border: none;
+            background-color: #FEFEFE;
+            padding: 15px 0;
+        }
+
+        .butt-plan{
+            border: none;
+            background-color: #6500FF;
+            color:white;
+            padding: 15px 55px;
+            border-radius: 10px;
+        }
+
+        .list-promo{
+            list-style: none;
+            text-align: start;
+            font-size: 15px;
+        }
+
+        li{
+            padding: 10px;
+        }
+    }
 }
+
+/*/Card Basic*/
